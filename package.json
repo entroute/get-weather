@@ -1,0 +1,33 @@
+{
+  "name": "get-weather",
+  "version": "0.1.0",
+  "description": "Get current weather for any location via a verified x402 endpoint. No API key, pay-per-call in USDC.",
+  "keywords": [
+    "x402",
+    "weather-api",
+    "free-weather-api",
+    "openweather-alternative",
+    "accuweather-alternative",
+    "weatherapi-alternative",
+    "ai-agents",
+    "mcp",
+    "entroute",
+    "pay-per-request"
+  ],
+  "homepage": "https://entroute.com",
+  "bugs": "https://github.com/entroute/get-weather/issues",
+  "license": "MIT",
+  "author": "EntRoute",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@entroute/sdk-agent-ts": "^0.2.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
